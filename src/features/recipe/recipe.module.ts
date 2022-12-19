@@ -3,6 +3,7 @@ import { RecipeController } from './recipe.controller';
 import { RecipeService } from './recipe.service';
 
 @Module({
+  imports: [RecipeModule],
   controllers: [RecipeController],
   providers: [RecipeService],
 })
